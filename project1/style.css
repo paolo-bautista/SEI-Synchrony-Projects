@@ -1,0 +1,110 @@
+html, body {
+    overflow-x: hidden;
+}
+body{
+     display: flex;
+     justify-content: center;
+}
+
+#topButton {
+    font-weight: normal;
+    display: inline-block;
+    padding-top: 300px;
+    padding-left: 300px;
+    padding-right: 20px;
+    background: transparent;
+    border: none;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    z-index: 2;
+    position: absolute;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+#content {
+    position: absolute;
+    top: 150px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bangers', cursive;
+    letter-spacing: .5em;
+}
+#activity{
+    padding: 1em;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#participant {
+    margin-top: 0;
+}
+#images {
+    display: flex;
+    gap: 10px;
+}
+#pic2 {
+    height: 200px;
+    width: 300px;
+}
+#topText {
+    font-family: 'Kalam';
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+u{
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+#mario {
+   object-fit: contain;
+   z-index: -1;
+   height: 700px;
+}
+#mario2 {
+    display: none;
+    animation-name: block;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes block{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+  #pic1, #pic3{
+    border-radius: 1rem;
+  }
+
+  #search{
+    padding: 15px 24px;
+    font-family: 'Kalam';
+    font-size: 1.4rem;
+    box-shadow: 0px 6px 5px hsl(16, 100%, 30%);
+    border: none;
+    color:white;
+    background: orangered;
+    margin-top: 15px;
+  }
+  #search:hover {
+    background: hsl(16, 100%, 45%);
+  }
+  #search:active {
+    background: hsl(16, 100%, 40%);
+    box-shadow: 0px 8px 10px hsl(16, 100%, 30%);
+  }  
+#marioBG{
+    display: none;
+    object-fit: contain;
+    z-index: -1;
+    height: 700px;
+}

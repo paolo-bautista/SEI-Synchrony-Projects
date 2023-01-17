@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "google-search-results-nodejs": "^2.1.0",
+    "pexels": "^1.4.0",
+    "serpapi": "^0.0.13"
+  }
+}
